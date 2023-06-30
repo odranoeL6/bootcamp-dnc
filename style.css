@@ -272,7 +272,7 @@ footer .line2 a:first-child {
         width: 100%;
         margin: 0px;
     }
-}
+
 
 /* Seção Principal MOBILE*/
 
@@ -298,6 +298,13 @@ footer .line2 a:first-child {
 
 /* Footer MOBILE */
 
-    footer {
-        
+    footer .line1 {
+        flex-direction: column;
     }
+
+    footer .adress {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+}
